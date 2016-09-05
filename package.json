@@ -1,0 +1,31 @@
+{
+  "name": "01-sitebuilder",
+  "version": "1.0.0",
+  "description": "Static Site Upload Tool for Tutorial Purposes",
+  "scripts": {
+    "start": "echo \"Error: no start specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gulp deploy",
+    "watch": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-webpack": "^1.5.0",
+    "jquery": "^3.1.0",
+    "vinyl-named": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp-gitignore": "^0.1.0",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

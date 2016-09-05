@@ -1,0 +1,49 @@
+<!--Describe the type of markup document-->
+<!DOCTYPE html>
+
+<!--Start HTML Docs with an html tag-->
+<html lang="en">
+
+<!--The head is invisible and holds information about the document-->
+<head>
+
+  <!--These meta tell the browser how to interpret characters-->
+  <meta charset="utf-8">
+  <!--and pixel density for mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Tell google what it is seeing-->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!--What to call this page in the window header or tab-->
+  <!--Notice 2 '{' characters here. This will -->
+  <title>{{title}}</title>
+
+  <!--Link in stylesheets-->
+  <!--Bootstrap and Font Awesome CSS files have been moved to `public/source/scripts/main.scss`-->
+  <!--Link our own CSS (notice not SCSS)-->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!--This includes the javascript needed on EVERY page only-->
+  <!--Individual pages' scripts may be included by the page, at the bottom of the content-->
+  <script src="/js/globals.js"></script>
+
+</head>
+
+<!--Start the visible part of the document-->
+<body>
+
+  <!--The container is the outer body of the bootstrap content.-->
+  <!--It adjusts its size bast on the width of the device viewing it and has a padding on left and right-->
+  <div class="container">
+
+    <!--This will include the content of the page being requested-->
+    {{{body}}}
+
+  </div> <!-- /container -->
+
+
+  <!--jQuery and Bootstrap JS files have been included in /js/global.js-->
+</body>
+</html>
